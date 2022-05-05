@@ -1,5 +1,8 @@
 # Changelog
 
+#### 7.0.1
+- Fixed version plyr
+- 
 #### 7.0.0
 - Vue 3 support.
 - Updated plyr version.
