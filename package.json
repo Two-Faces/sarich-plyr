@@ -8,7 +8,7 @@
     "email": "gabe@redxtech.ca",
     "url": "https://gabedunn.dev"
   },
-  "repository": "github:Two-Faces/vue-plyr",
+  "repository": "github:Two-Faces/sarich-plyr",
   "scripts": {
     "prebuild": "rm -rf dist/",
     "build": "NODE_ENV=production rollup --c rollup.config.js",
@@ -59,7 +59,7 @@
     "vue-template-compiler": "^2.6.12"
   },
   "keywords": [
-    "vue-plyr",
+    "sarich-plyr",
     "vue",
     "plyr",
     "video",
