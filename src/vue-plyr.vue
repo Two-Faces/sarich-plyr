@@ -36,7 +36,8 @@
 		mounted() {
 			this.player = new Plyr(this.$el, this.opts)
 		},
-		beforeUnmount() {
+
+		beforeDestroy() {
 			try {
 				this.player.destroy()
 			} catch (e) {
@@ -51,6 +52,7 @@
 				}
 			}
 		},
+
 		render() {
 			const slots = this.$slots.default
 			return typeof slots === 'function' ? slots()[0] : slots
